@@ -86,6 +86,9 @@ a
 }
 @media screen and (max-width:992px)
 {
+    .primary-btn{
+        margin-bottom: 20px;
+    }
     .banner-content
     {
         text-align: center;
