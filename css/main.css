@@ -86,6 +86,7 @@ a
     font-size: 48px;
     font-weight: 700;  
     margin-bottom: 20px;
+    margin-top: 60px;
 }
 .section-gap
 {
@@ -136,7 +137,7 @@ height: 900px !important;
 }
 .banner-area .fullscreen
 {
-height: 600px !important;
+height: 800px !important;
 }
 }
 .price-area
