@@ -45,7 +45,7 @@ h1,h4
 }
 .header
 {
-    background-color: #fff;
+    background-color: #08339F;
     position: fixed;
     top:0;
     left: 0;
@@ -68,6 +68,10 @@ body
     text-transform: uppercase;
     font-weight: 600;
 }
+a:hover
+{
+    color: white;
+}
 footer div a
 {
     color:white;
@@ -75,14 +79,14 @@ footer div a
 a
 {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .banner-area
 {
-    background-image:-webkit-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+    background-color: #f6735d;
 }
 .banner-content h1 {
-    color: #fff;
+    color: white;
     font-size: 48px;
     font-weight: 700;  
     margin-bottom: 20px;
@@ -129,6 +133,10 @@ height: 900px !important;
     font-weight: 700;  
     margin-bottom: 20px;
 }
+.about-content div p
+{
+    text-align: center;
+}
 .banner-content p {
     color: #fff;
     font-size: 10px;
@@ -144,6 +152,10 @@ height: 800px !important;
 {
     background: #f9f9ff;
 } 
+.about-area
+{
+    background-color: #f9f9ff;
+}
 .single-price
 {
 background: #fff;
@@ -161,7 +173,7 @@ background: #fff;
 }
 .single-price .bottom-sec:hover
 {
-    background-image:-webkit-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+    background-color:#f6735d ;
 color:white;
 transition: all 0.3s ease 0s;
 }
@@ -178,7 +190,7 @@ transition: all 0.3s ease 0s;
     padding-right: 60px;
     border-radius: 25px;
     border: none;
-    color: #fff;
+    color: #222222;
     display: inline-block;
     font-weight: 500;
     position: relative;  
@@ -188,8 +200,7 @@ transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     text-transform: uppercase;
-    background-image: -webkit-linear-gradient(
-        90deg, #f45622 0%, #f53e54 100%);
+    background-color: #fee0e2
 }
 .primary-btn:hover
 {
@@ -197,7 +208,7 @@ transition: all 0.3s ease 0s;
 }
 
 .primary-btn span {
-    color: #fff;
+    color: #222222;
     position: absolute;
     top: 50%;
     transform: translateY(-60%);
@@ -208,10 +219,10 @@ transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; 
 }
 .primary-btn:hover {
-    color: #fff;
+    color: #222222;
   }
 .primary-btn:hover span{
-    color: #fff;
+    color: #222222;
     right: 20px;
 
 }
@@ -219,4 +230,34 @@ transition: all 0.3s ease 0s;
 {
     outline: none;
     
+}
+.single-price .image-top
+{
+    padding-top: 40px;
+}
+.btn 
+{
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    display: inline-block;
+    font-weight: 500;
+}
+.navbar-toggler.collapsed
+{
+    background-color: #fee0e2;
+}
+.navbar-toggler
+{
+    background-color: #fee0e2;
+
+}
+.navbar-toggler:focus:not(:focus-visible)
+{
+    outline: 0;
+}
+.bottom-sec.price
+{
+    border-top: 1px solid #eeeeee;
 }
