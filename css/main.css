@@ -137,6 +137,10 @@ height: 900px !important;
 {
     text-align: center;
 }
+ .banner-content
+    {
+        padding-top:20px;
+    }
 .banner-content p {
     color: #fff;
     font-size: 12px;
